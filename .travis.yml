@@ -27,6 +27,7 @@ matrix:
   exclude:
     - os: linux
       node_js: 12
+      env: TEST_SUITE=unit
   include:
     - os: linux
       node_js: 12
